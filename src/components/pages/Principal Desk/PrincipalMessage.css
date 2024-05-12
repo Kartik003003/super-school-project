@@ -1,0 +1,76 @@
+/* Add any additional styling for the PrincipalMessage component here */
+
+
+.img-container {
+    background-color: #ffffff;
+    /* Set the background color for the image container */
+    padding: 20px;
+    /* Add padding to the image container */
+    border-radius: 10px;
+    /* Add border radius to the image container */
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+    /* Add box shadow to the image container */
+    margin-top: 20px;
+    /* Adjust margin top as needed */
+    height: auto;
+}
+
+.additional-info {
+    margin-top: 20px;
+    /* Adjust margin top as needed */
+}
+
+.message-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+    font-size: 18px;
+    height: auto;
+}
+
+.message {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+    background-color: thistle;
+}
+
+.principal-name {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 16px;
+    color: #333;
+    font-style: italic;
+}
+
+.additional-info {
+    margin-top: 20px;
+}
+
+.additional-info p {
+    margin-bottom: 5px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 24px;
+    margin-left: 2rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Adjust the alignment of the image and message */
+.d-flex.flex-column.align-items-center #principal-img {
+    margin-bottom: 20px;
+    /* Add margin below the image */
+}

@@ -1,0 +1,284 @@
+.gmap-cont {
+    margin: 16px !important;
+    box-shadow: 10px 10px 20px black;
+    max-width: 1250px !important;
+    border-radius: 16px;
+    /* margin-top: 400px !important; */
+    background-color: white;
+}
+
+
+/* 
+.contact_fixed_image {
+    background-image: url("https://images.unsplash.com/photo-1629872928185-171e13c8e58b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 82% 600px;
+    background-position: center 200px;
+
+
+
+} */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    background: transparent;
+}
+
+.contact-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 0px 0px 80px 30px;
+    gap: 12px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px black;
+    margin-top: 28px;
+}
+
+.contact-link {
+    color: black;
+}
+
+.Snackbar {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    /* Adjust z-index as needed */
+}
+
+.class_icon {
+    color: #007bff;
+}
+
+.contact-title {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #330976;
+    /* Update color as needed */
+}
+
+.contact-address {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.contact-desc {
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    color: #666;
+    /* Update color as needed */
+}
+
+.contact-form {
+    width: 100%;
+    height: 551px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    /* Update background color as needed */
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 20px black;
+    margin-top: 28px;
+    gap: 12px;
+}
+
+
+
+.contact-subtitle {
+    font-size: 24px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+    /* Update color as needed */
+}
+
+.contact-input,
+.contact-input-message {
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    /* Update border color as needed */
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    /* Update color as needed */
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.contact-input:focus,
+.contact-input-message:focus {
+    border: 1px solid #007bff;
+    /* Update border color as needed */
+}
+.class_strong_contact{
+    color: black;
+}
+.contact-submit {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #007bff;
+    /* Update background color as needed */
+    padding: 13px 16px;
+    margin-top: 2px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    /* Update text color as needed */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@keyframes bounce-in-top {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        -webkit-transform: translateY(-65px);
+        transform: translateY(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    81% {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+.contact-wrapper {
+
+    -webkit-animation: bounce-in-top 1.8s both;
+    animation: bounce-in-top 1.8s both;
+}
+
+
+@keyframes bounce-in-bottom {
+    0% {
+        -webkit-transform: translateY(500px);
+        transform: translateY(500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        -webkit-transform: translateY(65px);
+        transform: translateY(65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    81% {
+        -webkit-transform: translateY(28px);
+        transform: translateY(28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+.contact-form {
+    -webkit-animation: bounce-in-bottom 1.8s both;
+    animation: bounce-in-bottom 1.8s both;
+}

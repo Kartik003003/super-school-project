@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Sedan+SC&family=Space+Grotesk:wght@300..700&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+.heading_class{
+  color: #f5f5dc !important;
+  background: #000435;
+  width: 100% !important;
+  font-size: 3rem;
+}
+
+.class_main_container{
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-bottom: -50px;
+  background:#f5f5dc ;
+  min-height: 100vh !important ;
+}
+.class_paragraph{
+  font-family: "Playfair Display", serif;
+font-size: 1.2rem;
+}

@@ -1,0 +1,115 @@
+.blog-header {
+  width: 100%;
+  height: 700px;
+}
+
+.blog-container {
+  padding: 0 7%;
+}
+
+.blog-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-image-container:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.modal-body {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.modal-image-container {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.img-thumbnail-modal {
+  width: 300px;
+  height: 200px;
+}
+
+@keyframes fadeLeftEnter {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRightEnter {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-left-enter {
+  animation: fadeLeftEnter 0.5s ease forwards;
+}
+
+.fade-right-enter {
+  animation: fadeRightEnter 0.7s ease forwards;
+}
+
+
+@keyframes fadeInLeftEnter {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInTopEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRightEnter {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-left-enter {
+  animation: fadeInLeftEnter 0.9s ease forwards;
+}
+
+.fade-in-top-enter {
+  animation: fadeInTopEnter 0.9s ease forwards;
+}
+
+.fade-in-right-enter {
+  animation: fadeInRightEnter 0.9s ease forwards;
+}

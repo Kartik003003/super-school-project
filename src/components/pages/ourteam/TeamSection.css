@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.home-container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* Ensure items wrap to the next line */
+    justify-content: center;
+    /* Center the items horizontally */
+    gap: 20px;
+    /* Adjust the gap between items */
+    padding: 20px;
+    /* Add padding to the container */
+}
+
+
+.profile-card {
+    width: calc(24% - 40px);
+    /* 25% width for large screens */
+    height: 250px;
+    /* Initial height for large screens */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
+    transition: all .4s;
+
+    border: 5px solid black;
+}
+
+@media only screen and (max-width: 1200px) {
+    .profile-card {
+        width: calc(33.33% - 40px);
+        /* 33.33% width for medium screens */
+        height: 300px;
+        /* Adjusted height for medium screens */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-card {
+        width: calc(50% - 40px);
+        /* 50% width for small screens */
+        height: 300px;
+        /* Adjusted height for small screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .profile-card {
+        width: calc(100% - 40px);
+        /* 100% width for extra small screens */
+        height: 310px;
+        /* Adjusted height for extra small screens */
+    }
+}
+
+
+
+
+.profile-card:hover {
+    border-radius: 20px;
+    height: 350px;
+}
+
+.profile-card .img {
+    position: relative;
+    width: 85%;
+    height: auto;
+
+}
+
+.profile-card:hover img {
+    border-radius: 10px;
+    transform: translateY(-70px);
+    border: 4px dashed black;
+}
+
+.img img {
+    object-fit: fill;
+    width: 100%;
+    border-radius: 50%;
+    transition: all .4s;
+    z-index: 99;
+
+}
+
+.caption {
+    text-align: center;
+    background-color: #ffffffda;
+    transform: translateY(-130px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s;
+
+}
+
+.profile-card:hover .caption {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.caption h3 {
+    font-size: 20px;
+    color: #0c52a1;
+    font-weight: 600;
+}
+
+.caption p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 2px 0 12px 0;
+}
+
+.caption .social-links i {
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+    color: #333;
+    transition: all .4s;
+}
+
+.caption .social-links i:hover {
+    color: #0c52a1;
+}
+
+.caption .social-links .fa-icon {
+    font-size: 21px;
+    margin: 0 4px;
+    cursor: pointer;
+    color: #333;
+    /* Default color */
+    transition: color 0.4s;
+    /* Smooth transition on color change */
+}
+
+.caption .social-links .fa-icon:hover {
+    color: #0c52a1;
+    /* Color on hover */
+}

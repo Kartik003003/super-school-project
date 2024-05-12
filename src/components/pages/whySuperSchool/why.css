@@ -1,0 +1,199 @@
+@import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+.student-card {
+    background-color: transparent;
+    border: none;
+    transition: transform 1s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.student-card:hover {
+    transform: scale(2.05);
+}
+
+.student-details {
+    position: absolute;
+    padding: 3em;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 1s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.student-card:hover .student-details {
+    opacity: 1;
+}
+
+.student-details {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    transition: all 2s ease-in-out;
+}
+
+.student-details:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(50%);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.student-details.animate__animated.animate__fadeInUp {
+    animation: fadeInUp 0.5s ease-in-out;
+}
+
+.student-details h5 {
+    margin-bottom: 0.5rem;
+}
+
+.student-details p {
+    margin-bottom: 0;
+}
+
+.hero-section {
+    padding: 0%;
+    margin: 0%;
+    width: 98.9vw;
+    height: 80vh;
+    position: relative;
+    background-image: url('https://damassets.autodesk.net/content/dam/autodesk/www/industry/3d-animation/create-beautiful-3d-animations-thumb-1204x677.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+para {
+    margin: 20px;
+    overflow: hidden;
+    animation: fadeIn 4s forwards;
+    font-size: 1.3rem;
+}
+
+@keyframes fadeIn {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+.hero-section img {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cards {
+    margin-left: 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 200, 100, 0.5);
+    transition: box-shadow 0.3s, transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.cards img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background-color: #fff;
+}
+
+.cards-body {
+    padding: 20px;
+}
+
+.cards-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cards-text {
+    font-size: 18px;
+    color: #000;
+}
+
+.cards-text:hover {
+    font-size: 18px;
+}
+
+.cards:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+
+.card-container {
+    justify-content: center;
+}
+
+.features {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 98.8vw;
+}
+
+@media (max-width: 768px) {
+    .features {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
+
+.rounded {
+    border-radius: 10px;
+    background-color: #9400d3;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1.2);
+    transition: all 0.3s ease;
+}
+
+.rounded:hover {
+    background-color: #251717;
+    color: rgb(214, 246, 214);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1.4);
+    transform: scale(1.1);
+}

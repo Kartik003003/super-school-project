@@ -1,0 +1,36 @@
+.card-slider {
+    margin: 5px;
+    padding: 20px 30px;
+    position: relative;
+    transition: 0.5s;
+    color: beige;
+}
+
+.card-slider img {
+    height: 120px;
+    box-shadow: 5px 5px 10px black;
+    width: 120px;
+    margin-bottom: 5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-slider p {
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.card-slider h2 {
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.card-slider h5 {
+    color: antiquewhite;
+    font-weight: 100;
+}

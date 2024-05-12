@@ -1,0 +1,103 @@
+.student-achievements {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(177, 210, 212);
+}
+
+.achievements-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.achievement-card {
+    width: 300px;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: height 0.3s ease-in-out;
+    height: 100px;
+}
+
+.achievement-card.open,
+.achievement-card:hover {
+    height: 450px;
+    /* Increased height */
+}
+
+.achievement-card.animate {
+    animation: fadeInUp 0.3s ease-in-out forwards;
+}
+
+.card-header {
+    background-color: lavender;
+    padding: 1rem;
+    display: grid;
+    height: 6.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    align-items: center;
+    overflow: hidden;
+    font-size: 20px;
+}
+.card-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.student-achievements h2 {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.student-class {
+    font-size: 20px;
+    color: hsl(0, 0%, 10%);
+    padding-bottom: 1rem;
+    /* Increased bottom padding */
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .achievement-card {
+        width: 80%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .achievement-card {
+        width: 90%;
+    }
+
+    .card-header h3 {
+        font-size: 1rem;
+    }
+
+    .card-content p {
+        font-size: 0.9rem;
+    }
+}

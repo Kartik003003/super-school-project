@@ -1,0 +1,39 @@
+
+.swiper {
+  width: 350px;
+  height: 400px;
+}
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.one {
+  background-color: #171730;
+}
+.five {
+  background-color: #171730;
+}
+.two {
+  background-color: #fd660a;
+}
+.six {
+  background-color: #fd660a;
+}
+.three {
+  background-color: #f30876;
+}
+.seven {
+  background-color: #f30876;
+}
+.four {
+  background-color: skyblue;
+}
+.eight {
+  background-color: skyblue;
+}

@@ -1,0 +1,7 @@
+Footer-->down padding
+principal desk--> strong, bold, font-size for qualification etc
+fix div--> content color, size
+why super school--> padding for title and cards
+courses--> card back rating color
+
+staff-->card back strong color have to change

@@ -1,0 +1,97 @@
+
+.main-image img {
+    height: 600px;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.card {
+    background: linear-gradient(to bottom, #b3e0ff, #4d94ff);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+    background-color: #f8f9fa;
+}
+.card:hover .list-group-item 
+{
+    color: black;
+}
+.card:hover .list-group-item-strong{
+    color: blueviolet;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Scale up by 5% on hover */
+}
+
+.typewriter {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+
+.typewriter h1 {
+    font-family: "Briem Hand", sans-serif;
+    overflow: hidden;
+    color: white;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+@media (max-width: 768px) {
+    .typewriter h1 {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .typewriter h1 {
+        font-size: 18px;
+        /* Further adjust font size for even smaller screens */
+    }
+}
