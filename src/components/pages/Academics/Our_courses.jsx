@@ -141,9 +141,10 @@ function CourseCard({ id, title, rating, description, imageUrl, index, handleRea
   }
 
   return (
-    <div className="unique-card-course" style={{ width: '20rem', margin: '30px auto 380px', ...animationStyle  }}>
+    <div className="unique-card-course" style={{ width: '20rem', margin: '30px auto 380px', ...animationStyle }}>
       <div className="unique-card-inner-course">
         <div className="unique-card-front-course">
+          <Card.Title className=""><h2>{title}</h2></Card.Title>
           <Card.Img variant="top" src={imageUrl} className="unique-card-img-top-course" />
         </div>
         <div className="unique-card-back-course">
@@ -162,7 +163,7 @@ function CourseCard({ id, title, rating, description, imageUrl, index, handleRea
 function RelatedCourseCard({ id, title, description, imageUrl, handleReadMore }) {
   return (
     <Card className=" mb-3 unique-card-related-course" style={{ width: '15rem', border: '2px solid #007bff', borderRadius: '10px', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', height: '250px' }}>
-      <Card.Img variant="top" src={imageUrl} className="unique-card-img-top-course" style={{ height: '155px', objectFit: 'revert-layer', borderRadius: '8px 8px 0 0' }} />
+      <Card.Img variant="top" src={imageUrl} className="unique-card-img-top-course" style={{ height: '150px', objectFit: 'revert-layer', borderRadius: '8px 8px 0 0' }} />
       <Card.Body className="unique-card-body-course">
         <Card.Title className="unique-card-related-title-course" style={{ color: 'white', fontSize: '1rem', marginBottom: '5px' }}>{title}</Card.Title>
         <Button variant="primary mt-2" onClick={() => handleReadMore(id)}>View Lesson</Button>

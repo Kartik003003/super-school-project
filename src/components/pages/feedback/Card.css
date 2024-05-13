@@ -1,17 +1,22 @@
 .card-slider {
-    margin: 5px;
-    padding: 20px 30px;
+    margin: 0.3125rem;
+    /* 5px */
+    padding: 1.25rem 1.875rem;
+    /* 20px 30px */
     position: relative;
     transition: 0.5s;
     color: beige;
 }
 
 .card-slider img {
-    height: 120px;
-    box-shadow: 5px 5px 10px black;
-    width: 120px;
-    margin-bottom: 5px;
-    border: 2px solid #fff;
+    height: 7.5rem;
+    /* 120px */
+    width: 7.5rem;
+    /* 120px */
+    margin-bottom: 0.3125rem;
+    /* 5px */
+    border: 0.125rem solid #fff;
+    /* 2px */
     border-radius: 50%;
     position: relative;
     left: 50%;
@@ -19,18 +24,105 @@
 }
 
 .card-slider p {
-    font-size: 13px;
+    font-size: 0.8125rem;
+    /* 13px */
     font-weight: 100;
     text-align: left;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
+    /* 25px */
 }
 
 .card-slider h2 {
     font-weight: 100;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
+    /* 5px */
 }
 
 .card-slider h5 {
     color: antiquewhite;
     font-weight: 100;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 48rem) {
+    .card-slider {
+        padding: 0.9375rem;
+        /* 15px */
+    }
+
+    .card-slider img {
+        height: auto;
+        width: 70vh;
+    }
+
+    .card-slider p {
+        font-size: 0.75rem;
+        /* 12px */
+    }
+
+    .card-slider h2 {
+        font-size: 1rem;
+        /* 16px */
+    }
+
+    .card-slider h5 {
+        font-size: 0.875rem;
+        /* 14px */
+    }
+}
+
+@media only screen and (max-width: 30rem) {
+    .card-slider {
+        padding: 0.625rem;
+        /* 10px */
+    }
+
+    .card-slider img {
+        height: 5rem;
+        /* 80px */
+        width: auto;
+    }
+
+    .card-slider p {
+        font-size: 0.6875rem;
+        /* 11px */
+    }
+
+    .card-slider h2 {
+        font-size: 0.875rem;
+        /* 14px */
+    }
+
+    .card-slider h5 {
+        font-size: 0.75rem;
+        /* 12px */
+    }
+}
+
+@media only screen and (max-width: 20.625rem) {
+    .card-slider {
+        padding: 0.625rem;
+        /* 10px */
+    }
+
+    .card-slider img {
+        height: 5rem;
+        /* 80px */
+        width: auto;
+    }
+
+    .card-slider p {
+        font-size: 0.6875rem;
+        /* 11px */
+    }
+
+    .card-slider h2 {
+        font-size: 0.875rem;
+        /* 14px */
+    }
+
+    .card-slider h5 {
+        font-size: 0.75rem;
+        /* 12px */
+    }
 }

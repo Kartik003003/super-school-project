@@ -70,6 +70,7 @@ const SchoolAchievements = () => {
               <div className="card-image">
                 <img src={achievement.image} alt={achievement.description} />
               </div>
+                <p>{achievement.description}</p>
             </div>
           </div>
         ))}

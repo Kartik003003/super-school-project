@@ -62,8 +62,8 @@ const WhySuperSchool = () => {
                 </div>
             </div><br />
 
-            <div className="container">
-                <div className="row justify-content-center mt-4">
+            <div className="container cardsection">
+                <div className="row">
                     <div className="col-md-4">
                         <div className="cards student-card">
                             <div className="cards-body d-flex flex-column align-items-center">
@@ -72,7 +72,7 @@ const WhySuperSchool = () => {
                                     <h5 className="cards-title">Excellent Teachers</h5>
                                     <div className="student-details">
                                         <h5 className="cards-title">Excellent Teachers</h5>
-                                        <para className="cards-text text-white">Excellent teachers possess a unique blend of qualities that set them apart. They are dedicated, compassionate, and innovative individuals who inspire and engage their students. These educators exhibit patience, creativity, and a deep understanding of their subject matter.</para>
+                                        <para className="cards-text text-white">Excellent teachers possess a unique blend of qualities that set them apart. They are dedicated, compassionate, and innovative individuals who inspire and engage their students. </para>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ const WhySuperSchool = () => {
                                     <h5 className="cards-title">Top Courses</h5>
                                     <div className="student-details ">
                                         <h5 className="cards-title">Top Courses</h5>
-                                        <para className="cards-text text-white">School courses offer a structured curriculum covering various subjects like Math, Science, History, and Languages. These courses aim to provide students with essential knowledge, skills, and critical thinking abilities to prepare them for academic success and future endeavors.</para>
+                                        <para className="cards-text text-white">School courses offer a structured curriculum covering various subjects like Math, Science, History, and Languages. to prepare them for academic success and future endeavors.</para>
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ const WhySuperSchool = () => {
                                     <h5 className="cards-title">Multiple Games and Toys</h5>
                                     <div className="student-details ">
                                         <h5 className="cards-title">Multiple Games and Toys</h5>
-                                        <para className="cards-text text-white">Para shooting is a technical Paralympic sport that tests accuracy and control. It is governed by the Paralympic Committee of India, which hosts major events like the Para Shooting World Cup, showcasing the skills of para athletes in this discipline.</para>
+                                        <para className="cards-text text-white">Para shooting is a technical Paralympic sport that tests accuracy and control. It is governed by the Paralympic Committee of India, which hosts major events like  showcasing the skills of para athletes in this discipline.</para>
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@ const WhySuperSchool = () => {
                                     <h5 className="cards-title">Extra Activities</h5>
                                     <div className="student-details">
                                         <h5 className="cards-title">Extra Activities</h5>
-                                        <para className="cards-text text-white">Extracurricular activities in schools offer diverse opportunities beyond academics, fostering social, creative, and physical development. From sports teams to academic clubs and arts programs, these activities enhance students' skills, interests, and overall growth, providing a well-rounded educational experience.</para>
+                                        <para className="cards-text text-white">Extracurricular activities in schools offer diverse opportunities beyond academics, fostering social, creative, and physical development. From sports teams to academic clubs and arts program.</para>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ const WhySuperSchool = () => {
 
                                     <div className="student-details ">
                                         <h5 className="cards-title">Best Results</h5>
-                                        <para className="cards-text text-white">Best results in school reflect academic excellence, personal growth, and holistic development. Achieving the best results signifies mastery of subjects, critical thinking skills, and a strong work ethic, preparing students for future success and contributing to a fulfilling educational journey.</para>
+                                        <para className="cards-text text-white">Best results in school reflect academic excellence, personal growth, and holistic development. Achieving the best results signifies mastery of subjects, critical thinking skills,  preparing students for future success and contributing.</para>
                                     </div>
                                 </div>
                             </div>

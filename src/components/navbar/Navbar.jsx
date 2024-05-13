@@ -57,7 +57,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            <nav className="navbar --navbar2 p-0 m-0 navbar-expand-lg bg-dark shadow-sm">
+            <nav className="navbar --navbar2 p-0 m-0 navbar-expand-lg shadow-sm">
                 <div className="container-fluid">
                     <div className="collapse navbar-collapse" id="navbar2">
                         <ul className="navbar-nav mr-auto w-100">

@@ -6,7 +6,6 @@ import Lottie from 'lottie-react';
 import vision from './vision.json';
 import mission from './Mission.json';
 import values from './values.json'
-import all from './assets/images/all.png'
 
 const OurVisionMission = () => {
     return (
@@ -87,9 +86,7 @@ const OurVisionMission = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col main-image bg-info-subtle">
-                        <img src={all} alt="Main" className="img-fluid sticky-image w-100" />
-                    </div>
+
                 </div>
             </div>
         </div>

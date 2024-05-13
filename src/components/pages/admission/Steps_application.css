@@ -6,12 +6,9 @@
 
 .class_table{
   align-self: center;
-  margin-bottom: 60px !important;
-  margin-left: 13%;
-  border: 2px solid #000435 !important;
   box-shadow: 0 0 50px rgba(0, 0, 0, 1); /* Adjust shadow intensity as needed */
-  border-radius: 10px !important; /* Adjust border radius as needed */
-  width: 70% !important;
+  border-radius: 15px !important; /* Adjust border radius as needed */
+  width: 80% !important;
 }
 
 .class_subheading_form{
@@ -23,7 +20,7 @@
   border: 2px solid #000435;
   box-shadow: 0 0 50px rgba(0, 0, 0, 1);
   border-radius: 10px;
-  width: 900px; /* Default width for large screens */
+  width: 100%; /* Default width for large screens */
 
 
 }
@@ -31,13 +28,21 @@
 /* Responsive classes for different screen sizes */
 @media (max-width: 1200px) {
   .admission-form-box {
-    width: 750px; /* Width for screens up to 1200px */
+    width: 80%  ; /* Width for screens up to 1200px */
+  }
+  .class_table{
+    align-self: center;
+    min-width: 80% !important;
   }
 }
 
 @media (max-width: 992px) {
   .admission-form-box {
-    width: 600px; /* Width for screens up to 992px */
+    width: 80%; /* Width for screens up to 992px */
+  }
+  .class_table{
+    align-self: center;
+    width: 80% !important;
   }
 }
 
@@ -45,17 +50,29 @@
   .admission-form-box {
     width: 500px; /* Width for screens up to 768px */
   }
+  .class_table{
+    align-self: center;
+    width: 80% !important;
+  }
 }
 
 @media (max-width: 576px) {
   .admission-form-box {
     width: 400px; /* Width for screens up to 576px */
   }
+  .class_table{
+    align-self: center;
+    width: 80% !important;
+  }
 }
 
 @media (max-width: 480px) {
   .admission-form-box {
     width: 300px; /* Width for screens up to 480px */
+  }
+  .class_table{
+    align-self: center;
+    width: 80% !important;
   }
 }
 

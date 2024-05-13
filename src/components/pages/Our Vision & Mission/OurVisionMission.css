@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-    background: linear-gradient(to bottom, #b3e0ff, #4d94ff);
+    background: linear-gradient(to bottom, #000000, #000237);
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

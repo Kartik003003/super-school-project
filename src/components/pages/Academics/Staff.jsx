@@ -39,7 +39,7 @@ const Staff = () => {
                     backgroundRepeat: "no-repeat",
                 }}
             >
-                <div style={{ fontSize: "5rem",fontWeight:'bold' ,color: "Black" }}>
+                <div style={{ fontSize: "5rem", fontWeight: 'bold', color: "Black" }}>
                     <Typewriter
                         options={{
                             strings: ["Faculty & Staff"],
@@ -50,7 +50,8 @@ const Staff = () => {
                     />
                 </div>
             </div>
-            <div className='staff-heading bg-primary text-white text-center '>
+            <div className='staff-heading text-white text-center '>
+                <br />
                 <h1 className='staff-heading-content text-center text-black p-1'>
                     Head Of the School
                 </h1>
@@ -76,10 +77,10 @@ const Staff = () => {
                                     <div className="card-body">
                                         <h5 className="card-title-2">Mrs. Smith</h5>
                                         <p className="card-text">
-                                            <strong style={{color:'blue',fontSize:'1.3rem'}}>Name:</strong> Mrs. Smith <br />
-                                            <strong style={{color:'blue',fontSize:'1.3rem'}}>Education:</strong> Bachelor's in Education (B.Ed) <br />
-                                            <strong style={{color:'blue',fontSize:'1.3rem'}}>Special Position:</strong>Founder <br />
-                                            <strong style={{color:'blue',fontSize:'1.3rem'}}>Additional Information:</strong> Founded The super school <br />
+                                            <strong style={{ color: 'blue', fontSize: '1.3rem' }}>Name:</strong> Mrs. Smith <br />
+                                            <strong style={{ color: 'blue', fontSize: '1.3rem' }}>Education:</strong> Bachelor's in Education (B.Ed) <br />
+                                            <strong style={{ color: 'blue', fontSize: '1.3rem' }}>Special Position:</strong>Founder <br />
+                                            <strong style={{ color: 'blue', fontSize: '1.3rem' }}>Additional Information:</strong> Founded The super school <br />
                                         </p>
                                     </div>
                                 </div>
@@ -229,7 +230,8 @@ const Staff = () => {
                     </div>
                 </div>
             </div>
-            <div className='staff-heading-content bg-primary text-white text-center p-1'>
+            <div className='staff-heading-content text-white text-center p-1'>
+                <br />
                 <h1 className='staff-heading-content text-center text-black'>
                     Staff And Faculty
                 </h1>
@@ -245,6 +247,8 @@ const Staff = () => {
                                 alt="Person 1"
                                 style={{ height: "300px", width: "300px" }}
                             />
+                            <h5 className="founder-title">Mr.Wilson</h5>
+
                             <div className="founder-body slide">
                                 <h5 className="founder-title">Mr.Wilson</h5>
                                 <p className="founder-text">
@@ -264,6 +268,8 @@ const Staff = () => {
                                 alt="Person 1"
                                 style={{ height: "300px", width: "300px" }}
                             />
+                            <h5 className="founder-title">Miss Anderson</h5>
+
                             <div className="founder-body slide">
                                 <h5 className="founder-title">Miss Anderson</h5>
                                 <p className="founder-text">
@@ -283,6 +289,8 @@ const Staff = () => {
                                 alt="Person 1"
                                 style={{ height: "300px", width: "300px" }}
                             />
+                            <h5 className="founder-title">Mr. White</h5>
+
                             <div className="founder-body slide">
                                 <h5 className="founder-title">Mr. White</h5>
                                 <p className="founder-text">
@@ -303,6 +311,8 @@ const Staff = () => {
                                 alt="Person 1"
                                 style={{ height: "300px", width: "300px" }}
                             />
+                            <h5 className="founder-title">Mr. Clark</h5>
+
                             <div className="founder-body slide">
                                 <h5 className="founder-title">Mr. Clark</h5>
                                 <p className="founder-text">
@@ -322,6 +332,8 @@ const Staff = () => {
                                 alt="Person 1"
                                 style={{ height: "300px", width: "300px" }}
                             />
+                            <h5 className="founder-title">Mr. Martinez</h5>
+
                             <div className="founder-body slide">
                                 <h5 className="founder-title">Mr. Martinez</h5>
                                 <p className="founder-text">
@@ -345,6 +357,8 @@ const Staff = () => {
                                 {/* <div className="position-absolute bottom-0 start-50 translate-middle-x bg-black">
     <h5 className="text-white">Miss Thompson</h5>
   </div> */}
+                                <h5 className="founder-title">Miss. Thompson</h5>
+
                             </div>
 
                             <div className="founder-body slide">

@@ -29,7 +29,7 @@ const CoCurriculumActivity = () => {
 
                     <div className="image">
                         <img src="https://t3.ftcdn.net/jpg/02/89/36/54/360_F_289365495_sZ2yf1ItqdG8PV82Qy50nTItHAVxHdOz.jpg" alt="Background" />
-
+                        <h4>Outdoor Adventure</h4>
                     </div>
 
 
@@ -44,7 +44,7 @@ const CoCurriculumActivity = () => {
                 <div class="card">
                     <div class="image">
                         <img src="https://www.shutterstock.com/shutterstock/videos/1060156541/thumb/8.jpg?ip=x480" alt="Card Image" />
-
+                        <h4>Innovative Technology Solutions</h4>
                     </div>
                     <div class="content">
                         <h3>Innovative Technology Solutions</h3>
@@ -58,6 +58,7 @@ const CoCurriculumActivity = () => {
                 <div class="card">
                     <div class="image">
                         <img src="https://i.pinimg.com/736x/b9/8b/eb/b98beb433e0293b104a3272e774bd74d.jpg" alt="Card Image" />
+                        <h4>Team Building Adventures</h4>
                     </div>
                     <div class="content">
                         <h3>Team Building Adventures</h3>
@@ -70,7 +71,7 @@ const CoCurriculumActivity = () => {
                 <div class="card">
                     <div class="image">
                         <img src="https://img.freepik.com/premium-vector/cartoon-group-children-singing-dancing-school-choir_723224-1604.jpg" alt="Card Image" />
-
+                        <h4>Musical and Cultural Celebrations</h4>
                     </div>
 
                     <div class="content">
@@ -85,6 +86,7 @@ const CoCurriculumActivity = () => {
                     
                     <div class="image">
                         <img src="https://static.vecteezy.com/system/resources/previews/007/002/618/non_2x/children-playing-tug-of-war-game-free-vector.jpg" alt="Card Image" />
+                        <h4>Sporting Events Extravaganza</h4>
                     </div>
                     <div class="content">
                         <h3>Sporting Events Extravaganza</h3>

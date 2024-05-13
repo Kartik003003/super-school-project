@@ -48,6 +48,27 @@
     top: 0px;/* Adjust font size for mobile */
   }
 }
+@media (max-width: 426px) { /* Adjust breakpoint as needed */
+  .unique-hero-image {
+    height: 200px; /* Adjust height for mobile */
+  }
+
+  .unique-hero-text {
+    font-size: 14px; 
+    top: 0px;/* Adjust font size for mobile */
+  }
+}
+
+@media (max-width: 330px) {
+  .unique-hero-text {
+    font-size: 0.8rem; 
+    top: 1.5rem;/* Adjust font size for mobile */
+  }
+  .unique-hero-image {
+    height: 300px; /* Adjust height for mobile */
+  }
+  
+}
 @media (min-width: 1200px) {
   .h1, h1 {
     font-size: 4.5rem;

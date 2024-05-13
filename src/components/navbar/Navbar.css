@@ -1,12 +1,12 @@
 .--navbar2 {
     position: sticky !important;
     top: 77px !important;
-    background-color: #000 !important;
+    background-color: #004292 !important;
     z-index: 99;
 }
 
 .navbar{
-    background-color: #621414;
+    background-color: #00141a;
 }
 
 .navbar-brand {
@@ -55,7 +55,9 @@
     color: orangered;
 }
 
-
+.container-fluid button{
+    margin-right: 2.5rem;
+}
 @media screen and (min-width:992px) {
     .dropend:hover>.dropdown-menu {
         position: absolute;

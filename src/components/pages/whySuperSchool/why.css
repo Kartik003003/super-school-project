@@ -13,7 +13,18 @@
     transform: scale(2.05);
 }
 
+.cardsection{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 
+.student-card{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
 
 .post  {
     margin-top: 0;
@@ -52,7 +63,7 @@
 
 .student-details {
     position: absolute;
-    padding: 3em;
+    padding: 1.5em;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -72,6 +83,7 @@
 
 .student-card:hover .student-details {
     opacity: 1;
+    height: auto;
 }
 
 .student-details {
@@ -103,9 +115,6 @@
     }
 }
 
-.student-details.animate__animated.animate__fadeInUp {
-    animation: fadeInUp 0.5s ease-in-out;
-}
 
 .student-details h5 {
     margin-bottom: 0.5rem;
@@ -128,6 +137,7 @@
 
 para {
     margin: 20px;
+    width: 80%;
     overflow: hidden;
     animation: fadeIn 4s forwards;
     font-size: 1.3rem;
@@ -211,11 +221,17 @@ para {
     .features {
         grid-template-columns: 1fr 1fr;
     }
+    .cards-text {
+        overflow-y: scroll;
+    }
 }
 
 @media (max-width: 576px) {
     .features {
         grid-template-columns: 1fr;
+    }
+    .cards-text {
+        overflow-y: scroll;
     }
 }
 
