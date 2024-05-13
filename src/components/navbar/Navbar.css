@@ -13,7 +13,12 @@
     letter-spacing: 0.2rem;
     font-family: cursive;
 }
-
+@media screen and (max-width:330px){
+    .navbar-brand span {
+        display: none;
+    }
+    
+}
 
 
 .navbar-nav .nav-link {
@@ -61,4 +66,5 @@
     .dropend .dropdown-toggle {
         margin-left: 8px;
     }
+    
 }

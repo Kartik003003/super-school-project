@@ -13,9 +13,9 @@ const WhySuperSchool = () => {
 
         <div className='home'>
             <div className="hero-section">
-                <div className="row justify-content-center">
-                    <div className="col-md-12">
-                        <div className="col-md-6 d-flex flex-column justify-content-center" style={{ color: 'white', marginTop: '10%', marginLeft: '100px' }}>
+                <div className="row ">
+                    <div className="post col-md-12">
+                        <div className="col-md-6" style={{ color: 'white', marginTop: '15%' }}>
                             <h1 className='animate__animated animate__fadeInDown animate__delay-1s'>Why Super School?</h1>
                             <br />
                             <hr />

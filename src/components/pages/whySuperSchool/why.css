@@ -13,6 +13,43 @@
     transform: scale(2.05);
 }
 
+
+
+.post  {
+    margin-top: 0;
+    /* Remove the top margin for smaller screens */
+    margin-left: 0;
+    /* Remove the left margin for smaller screens */
+    text-align: center;
+    /* Center the content for smaller screens */
+}
+
+.hero-section h1 {
+    font-size: 28px;
+    /* Reduce the font size for smaller screens */
+}
+
+.hero-section para {
+    font-size: 16px;
+    /* Reduce the font size for smaller screens */
+}
+
+@media (max-width: 767px) {
+    .hero-section .col-md-6 {
+        flex: 0 0 100%;
+        /* Make the column take up the full width on smaller screens */
+        display: grid;
+        justify-content: left;
+        max-width: 100%;
+    }
+    .hero-section {
+        position: inherit;
+        /* padding: 50px 20px; */
+        margin-left: 0;
+
+    }
+}
+
 .student-details {
     position: absolute;
     padding: 3em;
@@ -79,7 +116,6 @@
 }
 
 .hero-section {
-    padding: 0%;
     margin: 0%;
     width: 98.9vw;
     height: 80vh;
