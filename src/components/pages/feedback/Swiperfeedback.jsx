@@ -29,7 +29,7 @@ const Sliderfeedback = () => {
 
   return (
     <Container fluid>
-      <h1 className="text-center text-primary mt-3 mb-3">SATISFIED PARENT</h1>
+      <h1 className="text-center text-primary mt-3 mb-3">SATISFIED PARENT</h1><br />
       <Swiper
         effect={"cards"}
         grabCursor={true}

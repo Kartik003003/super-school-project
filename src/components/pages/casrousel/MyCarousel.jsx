@@ -35,7 +35,7 @@ function MyCarousel() {
 
   return (
     <div>
-      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} fade={fade} style={{ width: '100%', height: '500px' }}>
+      <Carousel activeIndex={index} direction={direction} onSelect={handleSelect} fade={fade} style={{ width: '100%', height: 'auto' }}>
         {/* Slide 1 */}
         <Carousel.Item>
           <div style={{ position: 'relative' }}>
@@ -63,13 +63,12 @@ function MyCarousel() {
               </div>
             </div>
             {/* Content for smaller screens */}
-            <div className="d-md-none bg-primary text-white p-3">
-              <h3>Welcome to Super School</h3>
-              <button type="button" className="btn btn-warning">Join Now</button>
+            <div className="d-md-none bg-primary text-white p-3" style={{ padding: '1rem' }}>
+              <h3 style={{ fontSize: '1.5rem' }}>Welcome to Super School</h3>
+              <button type="button" className="btn btn-warning" style={{ fontSize: '0.9rem' }}>Join Now</button>
             </div>
           </div>
         </Carousel.Item>
-
 
         {/* Slide 2 */}
         <Carousel.Item>
@@ -84,8 +83,8 @@ function MyCarousel() {
             </div>
           </div>
           {/* Content for smaller screens */}
-          <div className="d-md-none bg-primary text-white p-3">
-            <h3>Make A Bright Future For Your Child</h3>
+          <div className="d-md-none bg-primary text-white p-3" style={{ padding: '1rem' }}>
+            <h3 style={{ fontSize: '1.5rem' }}>Make A Bright Future For Your Child</h3>
           </div>
         </Carousel.Item>
 
@@ -94,13 +93,12 @@ function MyCarousel() {
           <div style={{ position: 'relative' }}>
             <img className='d-block w-100' src={img3} alt='img3' style={{ maxHeight: '480px', objectFit: 'cover' }} />
             <div className="d-none d-md-block" style={{ position: 'absolute', top: '50%', left: '10%', transform: 'translateY(-50%)', textAlign: 'left', color: 'white', maxWidth: '30%', backgroundColor: 'rgba(255, 255, 255, 0.5)', padding: '20px', borderRadius: '10px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1), 0 0 20px 10px blue, 0 0 20px 10px orange', animation: 'glow 2s infinite alternate' }}>
-              <h3 className="display-4" style={{ marginBottom: '10px' }}>Explore Your Knowledge: Start Your Journey</h3>
+              <h3 className="display-4" style={{ marginBottom: '10px', fontSize: '2rem' }}>Explore Your Knowledge: Start Your Journey</h3>
             </div>
           </div>
           {/* Content for smaller screens */}
-          <div className="d-md-none bg-primary text-white p-3">
-            <h3>Explore Your Knowledge: Start Your Journey</h3>
-
+          <div className="d-md-none bg-primary text-white p-3" style={{ padding: '1rem' }}>
+            <h3 style={{ fontSize: '1.5rem' }}>Explore Your Knowledge: Start Your Journey</h3>
           </div>
           {/* Animation and background image */}
           <div style={{ position: 'absolute', top: '50%', left: '70%', transform: 'translate(-50%, -50%)' }}>
