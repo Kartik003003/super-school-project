@@ -1,12 +1,9 @@
 
 .container {
     position: relative;
-    width: 100%;
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 30px;
+    width: 100vw;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
@@ -32,22 +29,22 @@
 
 .container .card {
     width: calc((100% - 80px) / 3);
-    height: 20rem;
+    height: auto;
     background-color: #fff;
-    padding: 20px 15px;
+    margin-top: 8rem;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(15, 20, 111, 0.5);
     transition: 0.3s ease-in-out;
     border-radius: 15px;
-    margin-top: 80px;
 }
 
 .image h4{
     color: #fff;
 }
 .container .card:hover {
-    height: 380px;
+    height: auto;
+    position: relative;
 }
 
 @media (max-width: 992px) {
@@ -82,8 +79,9 @@
 
 .container .card .image {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-left: 1.5rem;
     top: 5%;
     left: 1px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);

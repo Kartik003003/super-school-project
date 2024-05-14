@@ -8,6 +8,11 @@
     position: relative;
     overflow: hidden;
 }
+.home
+{
+    margin: 0;
+    padding: 0;
+}
 
 .student-card:hover {
     transform: scale(2.05);
@@ -27,12 +32,14 @@
 }
 
 .post  {
-    margin-top: 0;
+    margin-top: 1;
     /* Remove the top margin for smaller screens */
-    margin-left: 0;
+    margin-left: 1;
     /* Remove the left margin for smaller screens */
     text-align: center;
     /* Center the content for smaller screens */
+    width: 90%;
+    height: auto;
 }
 
 .hero-section h1 {
@@ -125,9 +132,9 @@
 }
 
 .hero-section {
-    margin: 0%;
-    width: 98.9vw;
+    width: 100vw;
     height: 80vh;
+    margin-left:0;
     position: relative;
     background-image: url('https://damassets.autodesk.net/content/dam/autodesk/www/industry/3d-animation/create-beautiful-3d-animations-thumb-1204x677.jpg');
     background-repeat: no-repeat;
@@ -180,9 +187,6 @@ para {
     background-color: #fff;
 }
 
-.cards-body {
-    padding: 20px;
-}
 
 .cards-title {
     font-size: 25px;

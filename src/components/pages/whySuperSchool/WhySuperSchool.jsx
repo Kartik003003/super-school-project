@@ -11,7 +11,7 @@ const WhySuperSchool = () => {
 
     return (
 
-        <div className='home'>
+        <div className='home container'>
             <div className="hero-section">
                 <div className="row ">
                     <div className="post col-md-12">
@@ -27,14 +27,14 @@ const WhySuperSchool = () => {
             <br />
             <div>
 
-                <h1 className='px-2'>The Top Reasons Our School Excels</h1><br />
-                <div className="features px-2">
+                <h1 className='ml-3'>The Top Reasons Our School Excels</h1><br />
+                <div className="features">
                     <div className="p-3 m-2 rounded shadow-sm animate__animated animate__fadeInLeft animate__delay-3s " >
                         <FontAwesomeIcon icon={faBook} className="icon" />
                         <h2 className="mt-2">Diverse Curriculum</h2>
                         <para>Our school offers a diverse curriculum to cater to the interests and needs of all students.</para>
                     </div>
-                    <div className="p-3 m-2 rounded shadow-sm shadow-sm animate__animated animate__fadeInUp animate__delay-1s" >
+                    <div className=" m-2 rounded shadow-sm shadow-sm animate__animated animate__fadeInUp animate__delay-1s" >
                         <FontAwesomeIcon icon={faGlobe} className="icon" />
                         <h2 className="mt-2">Global Perspective</h2>
                         <para>We promote global awareness and understanding through various international programs.</para>
