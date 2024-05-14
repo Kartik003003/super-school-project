@@ -14,13 +14,14 @@ function Footer() {
         <div className="footer text-white">
             <div className="container">
                 <div className="row">
-                    <div className="col"><img src="./hlogo1.png" alt="Logo" className="img mb-2" style={{ width: '100px' }} /></div>
                     <div className="col-md-3 col-sm-6 sm:pb-5">
-                        <h1 className='name-heading'>Super School</h1>
+                        <img src="./hlogo1.png" alt="Logo" className="img mb-2" style={{ width: '100px' }} />
+                        <div className='name-heading'>Super School</div>
 
                         <div className="address">
-                            310-311, 3rd Floor, Vipul Agora, MG Road,
-                            Gurgaon, Haryana -122 002, India
+                            310-311, 3rd Floor,
+                            Vipul Agora, MG Road, Gurgaon,
+                            Haryana -122 002, India
                         </div>
                         <div className='icons custom-primary'>
                             <a href="#"><FontAwesomeIcon icon={faFacebook} className="mx-0" style={{ color: '#FFFFFF' }} /></a>
@@ -32,77 +33,46 @@ function Footer() {
                     </div>
                     <div className="cols col-md-3  col-sm-6 sm:pb-3">
                         <div>
-                            <p style={{ color: '#FFFFFF' }} className="head font-weight-bold">About Harmony Academy</p>
+                            <p style={{ fontSize: '1.5rem' }} className="head font-weight-bold">About Us</p><br />
                             <div className="col2-links mt-0" >
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        Our Story
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        <strong>NEW!</strong> Docuseries
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        Whole Human Education™
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        SEL in Action
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        SEL Research
-                                    </a>
-                                </p>
-
+                                <ul>
+                                    <li>principal desk</li>
+                                    <li>Our Vision &amp; Mission</li>
+                                    <li>whySuperSchool</li>
+                                    <li><a href="/privacy-policy" style={{ textDecoration: 'none', color: 'white' }}>  Privacy Policy</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <div className="cols col-md-3 col-sm-6 sm:pb-3">
-                        <div className='col3-1'>
-                            <p style={{ color: '#FFFFFF' }} className="head">Solutions</p>
-                            <div className="col3-links mt-0">
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        <strong>NEW!</strong> Harmony Kits
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        <strong>Harmony Curriculum</strong>
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        Harmony PreK-6
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        Harmony at Home
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        Harmony Out-of-School Time
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="#" className="text-decoration-none hover-underline">
-                                        Harmony SEL Games
-                                    </a>
-                                </p>
+                        <div>
+                            <p style={{ fontSize: '1.5rem' }} className="head font-weight-bold">Academics</p><br />
+                            <div className="col2-links mt-0" >
+                                <ul>
+                                    <li>Courses</li>
+                                    <li>Faculty &amp; Staff</li>
+                                    <li>School Amenties</li>
+                                    <li>Calender &amp; Events</li>
+                                </ul>
                             </div>
                         </div>
-                        
+
+                    </div>
+                    <div className="cols col-md-3 col-sm-6 sm:pb-3">
+                        <div>
+                            <p style={{ fontSize: '1.5rem' }} className="head font-weight-bold">News and Blog</p><br />
+                            <div className="col2-links mt-0" >
+                                <ul>
+                                    <li>News</li>
+                                    <li>Blogs</li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
+
             </div>
             <p className="text-center" style={{ color: '#FFFFFF' }}>&copy; 2024 Super School. All rights reserved.</p>
 
