@@ -11,7 +11,7 @@
   padding-top: 10px;
   margin-bottom: -50px;
   background:#f5f5dc ;
-  min-height: 100vh !important ;
+  min-height: auto !important ;
 }
 .class_paragraph{
   font-family: "Playfair Display", serif;

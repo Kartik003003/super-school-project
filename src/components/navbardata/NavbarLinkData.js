@@ -66,18 +66,18 @@ const menu = [
                 title: "Admission Process",
                 path: "/Admissions",
             },
-            {
-                title: "Fee Structure",
-                path: "/fee-structure",
-            },
-            {
-                title: "Parent Referral Program",
-                path: "/parent-referral-program",
-            },
-            {
-                title: "FAQs",
-                path: "/faqs",
-            },
+            // {
+            //     title: "Fee Structure",
+            //     path: "/fee-structure",
+            // },
+            // {
+            //     title: "Parent Referral Program",
+            //     path: "/parent-referral-program",
+            // },
+            // {
+            //     title: "FAQs",
+            //     path: "/faqs",
+            // },
         ],
     },
     {

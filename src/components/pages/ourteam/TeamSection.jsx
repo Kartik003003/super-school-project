@@ -11,7 +11,7 @@ const TeamSection = () => {
                 {/* Profile Card for Teacher 1 */}
                 <div className="profile-card">
                     <div className="img">
-                        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwgHAqIUkUR92_mtswDCYJD99s-KEpEhP4dA&usqp=CAU' alt="Teacher 1"></img>
+                        <img src='https://p.kindpng.com/picc/s/151-1515332_muslim-teacher-drawing-anime-teacher-easy-drawing-hd.png' alt="Teacher 1"></img>
                     </div><br /><br /><br />
                     <div className="caption">
                         <h3>Viraj Shastri</h3>
@@ -29,7 +29,7 @@ const TeamSection = () => {
                 {/* Profile Card for Teacher 2 */}
                 <div className="profile-card">
                     <div className="img">
-                        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-w_Q-ue5bQMYnbQ9YG2oTbxcDGXVBVEQv5Q&usqp=CAU' alt="Teacher 2"></img>
+                        <img src='https://www.shutterstock.com/image-vector/anime-girl-scientist-reading-book-600nw-2297567861.jpg' alt="Teacher 2"></img>
                     </div><br /><br /><br />
                     <div className="caption">
                         <h3>Anjali Singh</h3>
@@ -47,7 +47,7 @@ const TeamSection = () => {
                 {/* Profile Card for Teacher 3 */}
                 <div className="profile-card">
                     <div className="img">
-                        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWJSAClyZWVF39P3Hs4sKCrZZ1ZkXNwNoKlg&usqp=CAU' alt="Teacher 3"></img>
+                        <img src='https://i.pinimg.com/originals/06/8f/5a/068f5ab9ee137e5f4d4629c370c74ce6.jpg' alt="Teacher 3"></img>
                     </div><br /><br /><br />
                     <div className="caption">
                         <h3>Poonam Grover</h3>
@@ -65,7 +65,7 @@ const TeamSection = () => {
                 {/* Profile Card for Teacher 4 */}
                 <div className="profile-card">
                     <div className="img">
-                        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyTwOIwmnpU9i29c00uDxobH2O3Mw2l57pZg&usqp=CAU' alt="Teacher 4"></img>
+                        <img src='https://static.vecteezy.com/system/resources/thumbnails/030/693/568/small/teacher-2d-cartoon-vector-illustration-on-white-background-free-photo.jpg' alt="Teacher 4"></img>
                     </div><br /><br /><br />
                     <div className="caption">
                         <h3>Ushvinder Kaur</h3>

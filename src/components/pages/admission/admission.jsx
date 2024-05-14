@@ -39,8 +39,8 @@ const Admissions = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="visual-art-wrap text-center">
-                  <img src={Ad1} alt="Grade 1 to 10" className="img-fluid" />
-                  <p className="m-5">
+                  <img src={'https://t3.ftcdn.net/jpg/06/38/42/70/360_F_638427056_KFSahuq9BbOk98QhELJgG9Yhnf2Bng7z.jpg'} alt="Grade 1 to 10" className="img-fluid" />
+                  <p className="">
                     Grade 1 to 10 -
                     <button onClick={handleApplyNowClick} className="btn btn-primary">
                       Apply Now
@@ -50,7 +50,7 @@ const Admissions = () => {
               </div>
               <div className="col-md-6">
                 <div className="visual-art-wrap text-center">
-                  <img src={Ad2} alt="Grade 11" className="img-fluid" />
+                  <img src={'https://cdn.myanimelist.net/s/common/uploaded_files/1464422381-57d3d141f64f5a78b54beb633185d646.png'} alt="Grade 11" className="img-fluid" />
                   <p className="m-5">
                     Grade 11 to 12 -
                     <button onClick={handleApplyNowClick} className="btn btn-primary">

@@ -40,7 +40,7 @@ const Amenities = ({ image, heading, description }) => {
             description: 'The large, well-ventilated classrooms have smart boards installed. Students are encouraged to engage in interactive activities where their learning extends beyond the classroom. We make certain that the technology serves the pupils needs. The teachers notions are easier for the students to see when they are presented on smart boards.',
         },
         {
-            image: 'https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg',
+            image: 'https://png.pngtree.com/thumb_back/fw800/background/20240421/pngtree-computer-lab-with-people-background-image-image_15717583.jpg',
             heading: 'COMPUTER LABS',
             description: 'To fulfill the demands of modern learning and to address the academic needs connected to computing and IT, we have three well-equipped computer labs with software and hardware that have over 100 PCs.All three Computer Labs have dual core PCs that are connected to the local area network.',
         },
@@ -75,7 +75,7 @@ const Amenities = ({ image, heading, description }) => {
             description: ' Music education likely includes classes where students learn about music theory, history, and performance techniques. They might participate in ensembles like bands, choirs, or orchestras, and have opportunities to showcase their talents through performances or competitions.',
         },
         {
-            image: 'https://reviewonline.co.za/wp-content/uploads/sites/68/2017/12/CY5A6153.jpg',
+            image: 'https://i.pinimg.com/originals/7c/2c/84/7c2c84e9eea5a8eb76a5981e32b4a1da.png',
             heading: 'TRANSPORTATION',
             description: 'We provide careful consideration to our kids safety while they travel. Our fleet of buses, which each have forty seats, guarantees that every student will have a pleasant place to sit while traveling.Our skilled drivers handle pick-ups and drops along the designated routes. Additionally, there are bus attendants who handle seating arrangements and student care.',
         },

@@ -55,7 +55,7 @@ const News = () => {
       <div className="news-card-container">
         {/* Card 1 */}
         <div className="news-card animate__animated animate__fadeInLeft">
-          <img src="https://bostonworldschool.com/wp-content/uploads/2023/02/zoo.jpg" className="news-card-img-top" alt="Image 1" />
+          <img src="https://img.freepik.com/free-vector/two-science-students-working-lab-school_1308-35081.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714694400&semt=ais" className="news-card-img-top" alt="Image 1" />
           <div className="news-card-body ">
             <h5 className="news-card-title">School Trip to Zoo</h5>
             <p className="news-card-text">Students had an amazing time exploring the zoo and learning about various animals. They particularly enjoyed feeding the giraffes and watching the penguins swim.</p>
@@ -65,7 +65,7 @@ const News = () => {
 
         {/* Card 2 */}
         <div className="news-card animate__animated animate__fadeInUp">
-          <img src="https://www.popsci.com/uploads/2019/03/18/YO6Q7ELUJFOOK53QRDIQPCJSJA.jpg?auto=webp" className="news-card-img-top" alt="Image 2" />
+          <img src="https://thumbs.dreamstime.com/z/science-fair-project-26972127.jpg" className="news-card-img-top" alt="Image 2" />
           <div className="news-card-body">
             <h5 className="news-card-title">Science Fair Winners</h5>
             <p className="news-card-text">Congratulations to the winners of our annual science fair! Their innovative projects impressed everyone. The first prize went to a project exploring renewable energy sources.</p>
@@ -75,7 +75,7 @@ const News = () => {
 
         {/* Card 3 */}
         <div className="news-card animate__animated animate__fadeInRight">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyaq3EWNRmHkR906m_y_pe9yAa50S5dd7ksg&usqp=CAU" className="news-card-img-top" alt="Image 3" />
+          <img src="https://c8.alamy.com/comp/ECA1ET/sports-day-ECA1ET.jpg" className="news-card-img-top" alt="Image 3" />
           <div className="news-card-body">
             <h5 className="news-card-title">Sports Day Highlights</h5>
             <p className="news-card-text">Our students showcased their athletic talents during the sports day event, creating unforgettable memories. The relay race was particularly thrilling, with teams competing fiercely for the top spot.</p>
@@ -85,7 +85,7 @@ const News = () => {
 
         {/* Card 4 */}
         <div className="news-card animate__animated animate__fadeInLeft">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXLZREnojeDbKROaJJL3eKSWo9scydp9lsdVbbNCsdiFfvO-bxHzacLIDP2GBxeUKQTJM&usqp=CAU" className="news-card-img-top" alt="Image 4" />
+          <img src="https://www.shutterstock.com/shutterstock/photos/235832497/display_1500/stock-vector-illustration-of-kids-checking-paintings-in-an-art-exhibit-235832497.jpg" className="news-card-img-top" alt="Image 4" />
           <div className="news-card-body">
             <h5 className="news-card-title">Art Exhibition</h5>
             <p className="news-card-text">Art enthusiasts gathered to admire the stunning artworks created by our talented students. The exhibition featured a diverse range of mediums, from paintings and sculptures to digital art.</p>
@@ -95,7 +95,7 @@ const News = () => {
 
         {/* Card 5 */}
         <div className="news-card animate__animated animate__fadeInUp">
-          <img src="https://www.mobileedproductions.com/hs-fs/hubfs/MusicEducation1.jpg?width=600&name=MusicEducation1.jpg" className="news-card-img-top" alt="Image 5" />
+          <img src="https://www.shutterstock.com/image-vector/children-orchestra-play-various-music-260nw-1360910705.jpg" className="news-card-img-top" alt="Image 5" />
           <div className="news-card-body">
             <h5 className="news-card-title">Music Performance</h5>
             <p className="news-card-text">The melodious tunes filled the auditorium as our students put on a captivating music performance. From classical compositions to modern hits, the audience was treated to an unforgettable evening of music.</p>
@@ -105,7 +105,7 @@ const News = () => {
 
         {/* Card 6 */}
         <div className="news-card animate__animated animate__fadeInDown">
-          <img src="https://www.bathecho.co.uk/uploads/2021/07/southgate-booknic-2.jpg" className="news-card-img-top" alt="Image 6" />
+          <img src="https://c8.alamy.com/comp/HXYP6J/illustration-of-a-group-of-kids-reading-a-book-while-education-related-HXYP6J.jpg" className="news-card-img-top" alt="Image 6" />
           <div className="news-card-body">
             <h5 className="news-card-title">Book Reading Event</h5>
             <p className="news-card-text">Readers immersed themselves in captivating stories and explored the magic of literature at our book reading event. The event featured readings from both classic and contemporary literature, catering to all tastes.</p>

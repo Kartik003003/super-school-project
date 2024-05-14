@@ -31,7 +31,7 @@ const PrincipalDesk = () => {
         <div className="col-md-6 d-flex align-items-center justify-content-center">
           <div id="principal-img" className="d-flex flex-column align-items-center img-container">
             <img
-              src="https://www.oakridge.in/wp-content/uploads/2022/03/1-2.png"
+              src="https://img.freepik.com/premium-photo/beautiful-anime-cartoon-american-teacher-woman-classroom-illustration-generative-ai_850810-390.jpg"
               alt="Principal"
               className="img-fluid rounded animate__animated animate__fadeInLeft"
               style={{ height: '390px', width: '500px' }}

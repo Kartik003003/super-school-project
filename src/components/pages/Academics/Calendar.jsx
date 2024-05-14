@@ -362,7 +362,7 @@ const Calendar = () => {
                 style={{
                     height: "80vh",
                     backgroundColor: "salmon",
-                    backgroundImage: `url(${heroimg})`,
+                    backgroundImage: `url('https://img.freepik.com/free-photo/anime-style-students-attending-school_23-2151066419.jpg')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",

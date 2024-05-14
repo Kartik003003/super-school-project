@@ -134,12 +134,12 @@
 .hero-section {
     width: 100vw;
     height: 80vh;
-    margin-left:0;
+    /* margin-left:0; */
     position: relative;
     background-image: url('https://damassets.autodesk.net/content/dam/autodesk/www/industry/3d-animation/create-beautiful-3d-animations-thumb-1204x677.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 para {

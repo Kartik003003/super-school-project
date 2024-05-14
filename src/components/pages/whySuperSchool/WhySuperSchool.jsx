@@ -11,7 +11,7 @@ const WhySuperSchool = () => {
 
     return (
 
-        <div className='home container'>
+        <div className='home '>
             <div className="hero-section">
                 <div className="row ">
                     <div className="post col-md-12">
