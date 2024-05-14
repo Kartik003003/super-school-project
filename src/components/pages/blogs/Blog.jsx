@@ -137,7 +137,7 @@ const BlogPage = () => {
                                     <div className="row">
                                         {index % 2 === 0 ? (
                                             <>
-                                                <div className="col-md-6 fade-left-enter">
+                                                <div className="col-md-6 ">
                                                     <div className="blog-image-container">
                                                         <Image
                                                             src={post.imageSrc}

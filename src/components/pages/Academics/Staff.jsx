@@ -56,7 +56,7 @@ const Staff = () => {
                     Head Of the School
                 </h1>
             </div>
-            <div className="container mt-3 mb-1">
+            <div className="container-fluid mt-3 mb-1">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div className="col">
                         <div className="flip-card p-2">
