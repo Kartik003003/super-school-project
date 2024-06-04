@@ -57,7 +57,7 @@ const CoCurriculumActivity = () => {
                 </div>
                 <div class="card">
                     <div class="image">
-                        <img src="https://i.pinimg.com/736x/b9/8b/eb/b98beb433e0293b104a3272e774bd74d.jpg" alt="Card Image" />
+                        <img src="https://img.freepik.com/free-photo/international-day-education-illustration_23-2151101756.jpg?t=st=1717492947~exp=1717496547~hmac=aa1634a0d89ef3259cb9d79c3c794ea6cf0d1648cda64ba358400af464e3dc44&w=740" alt="Card Image" />
                         <h4>Team Building Adventures</h4>
                     </div>
                     <div class="content">

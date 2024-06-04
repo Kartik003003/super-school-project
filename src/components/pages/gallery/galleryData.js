@@ -1,51 +1,51 @@
 const gallerydata = [
     {
         alt:"pic",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvEqrKNhZP_A-p_dwklWZsJpJG8fW6X8dng&usqp=CAU",
+        img: "https://cdn.pixabay.com/photo/2015/12/15/06/42/kids-1093758_1280.jpg",
     },
     {
         alt:"pic",
-        img: "https://t3.ftcdn.net/jpg/02/92/82/52/360_F_292825201_orpokDry0uBpw5IB3QQTAtP7dI84gLuL.jpg",
+        img: "https://cdn.pixabay.com/photo/2014/03/12/18/45/boys-286245_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://thumbs.dreamstime.com/b/cute-boy-backpack-walking-to-school-cartoon-style-international-students-day-concept-image-generated-using-ai-tool-289346700.jpg",
+        img: "https://cdn.pixabay.com/photo/2015/09/22/01/30/lights-951000_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://cdn.pixabay.com/photo/2023/03/04/20/44/student-cartoon-7830116_1280.png",
+        img: "https://cdn.pixabay.com/photo/2024/02/17/15/53/ai-generated-8579615_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://img.freepik.com/premium-vector/kid-education-vector-illustration-designvector-illustrations-cute-kids-with-colored-pencils_723224-2786.jpg",
+        img: "https://cdn.pixabay.com/photo/2019/03/09/06/52/colorful-4043742_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://i.ytimg.com/vi/fLw-8kQ0IEY/maxresdefault.jpg",
+        img: "https://cdn.pixabay.com/photo/2024/03/21/18/08/ai-generated-8648248_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://static.vecteezy.com/system/resources/previews/021/948/562/non_2x/character-happy-activity-ai-generated-free-photo.jpg",
+        img: "https://cdn.pixabay.com/photo/2018/04/08/13/16/ballet-3301195_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://png.pngtree.com/background/20240413/original/pngtree-primary-school-students-happy-going-to-school-cartoon-illustration-picture-image_8469609.jpg",
+        img: "https://cdn.pixabay.com/photo/2015/07/24/11/27/sport-858206_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://png.pngtree.com/thumb_back/fh260/background/20230705/pngtree-little-girl-happy-going-to-school-illustration-image_4478703.jpg",
+        img: "https://cdn.pixabay.com/photo/2020/09/22/15/41/microscope-5593459_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://png.pngtree.com/background/20231222/original/pngtree-primary-school-students-go-to-school-background-illustration-picture-image_6939061.jpg",
+        img: "https://cdn.pixabay.com/photo/2020/10/06/16/11/chemistry-5632654_640.jpg",
     },
     {
         alt:"pic",
-        img: "https://img.freepik.com/premium-photo/spooky-halloween-background-with-pumpkins-cemetery_717710-1251.jpg",
+        img: "https://activeforlife.com/content/uploads/2020/09/group-games-outdoors-2048x1366.jpg",
     },
     {
         alt:"pic",
-        img: "https://t4.ftcdn.net/jpg/03/19/48/09/360_F_319480933_XhNAPFu0ozP8MQ9DZR5PXyEpvUGff1T3.jpg",
+        img: "https://i.ytimg.com/vi/lCvcR2jmLVI/maxresdefault.jpg",
     },
     {
         alt:"pic",
@@ -53,7 +53,7 @@ const gallerydata = [
     },
     {
         alt:"pic",
-        img: "https://img.freepik.com/premium-photo/illustration-children-s-activities-back-school_566246-12193.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1711843200&semt=ais",
+        img: "https://images.pexels.com/photos/19875335/pexels-photo-19875335/free-photo-of-boy-playing-in-pool-with-balls.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
 ]
 

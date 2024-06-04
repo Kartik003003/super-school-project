@@ -11,7 +11,7 @@ const coursesData = [
     title: "Kinda Garden",
     rating: 4.5,
     description: "Kindergarten: where the magic of learning begins. Exploring the world one kindergarten day at a time. Chalk, laughter, and endless curiosity - welcome to kindergarten! In a world of crayons and recess, kindergarten is pure happiness.",
-    imageUrl: 'https://img.freepik.com/free-vector/children-holding-their-food-park-scene_1308-51942.jpg?w=900&t=st=1715090952~exp=1715091552~hmac=242904f55d8613ac28c6f9983046a1bd3dec294a05bb4b4b763d017a10ed5522',
+    imageUrl: 'https://static.vecteezy.com/system/resources/thumbnails/027/944/414/small_2x/a-group-of-cute-preschool-girl-painting-on-the-wall-at-the-art-class-children-s-book-cute-image-cartoon-character-school-activity-photo.jpg',
     relatedCourses: [
       {
         title: "Plants & Animals for Kids",
@@ -41,7 +41,7 @@ const coursesData = [
     title: "Primary courses",
     rating: 4.2,
     description: "Unleash your creativity and explore the art of storytelling in this interactive writing workshop. From poetry to short stories, learn techniques to craft compelling narratives and express yourself through words.",
-    imageUrl: 'https://img.freepik.com/free-photo/portrait-young-student-with-book-education-day_23-2150980026.jpg?t=st=1715091463~exp=1715095063~hmac=992958fcc6782223f88bb9db137122c9faac50c0bdbb341ae0abe0f697ac6247&w=996',
+    imageUrl: 'https://img.freepik.com/free-vector/gradient-international-day-education-illustration_23-2149926041.jpg?t=st=1717493783~exp=1717497383~hmac=40bdb5446f80fcc46871aad6245aebf8514db9792754589414badae280b9ae44&w=740',
     relatedCourses: [
       {
         title: "English Grammar Rules",
@@ -67,7 +67,7 @@ const coursesData = [
     title: "Secondary Courses",
     rating: 4.8,
     description: "Master the core concepts of algebra and calculus in this comprehensive mathematics course. Build a strong foundation in mathematical principles and problem-solving strategies.",
-    imageUrl: 'https://img.freepik.com/premium-vector/professor-students-university-class-cartoon_82574-10180.jpg?w=740',
+    imageUrl: 'https://img.freepik.com/free-vector/student-centered-education-knowledge-gaining-remote-graduation-bite-sized-learning-learn-own-pace-flexible-learning-process-concept_335657-814.jpg?t=st=1717493550~exp=1717497150~hmac=d747337127c95517ea49a304cca0090bbf8cfcdc78c6a5db0d7c1d539d3f917a&w=740',
     relatedCourses: [
       {
         title: "Hindi",
@@ -97,7 +97,7 @@ const coursesData = [
     title: "Higher Secondary ",
     rating: 4.6,
     description: " Explore the intricate connections between humans and the environment in this interdisciplinary course. Investigate pressing environmental issues such as climate change, biodiversity loss, and resource depletion.",
-    imageUrl: 'https://img.freepik.com/premium-photo/3d-character-boy-student-with-books-laptop_677161-314.jpg?w=740',
+    imageUrl: 'https://img.freepik.com/free-photo/international-day-education-cartoon-style-with-girl-student_23-2151007455.jpg?t=st=1717493425~exp=1717497025~hmac=02471f44944ac6f743f9c77880ebb8017beb1b3d7661d67f1daceb7a409852fa&w=826',
     relatedCourses: [
       {
         title: "Physics",
@@ -233,6 +233,7 @@ const Our_courses = () => {
           </Button>
         </Modal.Footer>
       </Modal>
+      <br/>
     </div>
   );
 }

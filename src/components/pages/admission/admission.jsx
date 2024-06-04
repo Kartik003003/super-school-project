@@ -11,7 +11,7 @@ const Admissions = () => {
     setShowSteps(true);
   };
 
- 
+
 
   return (
     <main className="container-fluid class_main_container">
@@ -20,7 +20,7 @@ const Admissions = () => {
           <h1 className="h2 text-center mb-3 heading_class">
             Admissions
           </h1>
-          <section className="container mt-4">
+          <section className="container mt-4 ">
             <div className="row">
               <div className="col-md-12">
                 <p className='class_paragraph'>
@@ -35,25 +35,25 @@ const Admissions = () => {
               </div>
             </div>
           </section>
-          <section className="container">
+          <section className="container mb-5">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 p-5">
                 <div className="visual-art-wrap text-center">
                   <img src={'https://t3.ftcdn.net/jpg/06/38/42/70/360_F_638427056_KFSahuq9BbOk98QhELJgG9Yhnf2Bng7z.jpg'} alt="Grade 1 to 10" className="img-fluid" />
                   <p className="">
                     Grade 1 to 10 -
-                    <button onClick={handleApplyNowClick} className="btn btn-primary">
+                    <button onClick={handleApplyNowClick} className="btn btn-primary m-3">
                       Apply Now
                     </button>
                   </p>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 p-5">
                 <div className="visual-art-wrap text-center">
                   <img src={'https://cdn.myanimelist.net/s/common/uploaded_files/1464422381-57d3d141f64f5a78b54beb633185d646.png'} alt="Grade 11" className="img-fluid" />
-                  <p className="m-5">
+                  <p className="">
                     Grade 11 to 12 -
-                    <button onClick={handleApplyNowClick} className="btn btn-primary">
+                    <button onClick={handleApplyNowClick} className="btn btn-primary m-3">
                       Apply Now
                     </button>
                   </p>

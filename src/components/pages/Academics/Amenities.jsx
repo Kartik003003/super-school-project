@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './Amenities.css';
 
@@ -12,7 +13,6 @@ const AmenitiesCard = ({ image, heading, description }) => {
                 <div className="amenities_card-back">
                     <div className="amenities_card-content">
                         <h3>{heading}</h3>
-
                         <p>{description}</p>
                     </div>
                 </div>
@@ -21,9 +21,9 @@ const AmenitiesCard = ({ image, heading, description }) => {
     );
 };
 
-
-const Amenities = ({ image, heading, description }) => {
+const Amenities = () => {
     const amenities = [
+
         {
             image: 'https://i.pinimg.com/originals/12/62/1a/12621a9b886b93dea5197407fb9cdfad.jpg',
             heading: 'LIBRARY',
@@ -86,39 +86,26 @@ const Amenities = ({ image, heading, description }) => {
         },
 
     ];
+
     return (
-        <div className="amenities_title">
-            <div
-                className="hero d-flex align-items-center justify-content-center"
-                style={{
-                    height: "90vh",
-                    backgroundColor: "salmon",
-                    backgroundImage: 'url("https://gesc.wa.edu.au/wp-content/uploads/sites/25/2021/05/School-Facilities.jpg")',
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                }}
-            >
-                {/* <div style={{ fontSize: "4rem", color: "white" }}>
-                    <Typewriter
-                        options={{
-                            strings: ["Academics & Events Calendar"],
-                            autoStart: true,
-                            loop: true,
-                            cursor: '<span style="font-size: 4rem;">|</span>',
-                        }}
-                    />
-                </div> */}
+        <div>
+
+            <div className="starting-photo">
+                <img src="https://gesc.wa.edu.au/wp-content/uploads/sites/25/2021/05/School-Facilities.jpg" alt="Starting Photo" />
             </div>
-            <p style={{ fontSize: '30px' }}>Since every child is unique, we at Super School recognize this and provide the young scholars the best possible learning environment.
-                and we provide kids first-rate facilities as well.</p>
-            <div className="amenities-grid">
-                {amenities.map((amenity, index) => (
-                    <AmenitiesCard key={index} image={amenity.image} heading={amenity.heading} description={amenity.description} />
-                ))}
+
+            {/* Amenities grid */}
+            <div className="amenities_title">
+                <h2>School Amenities</h2>
+                <p style={{ fontSize: '30px' }}>Since every child is unique, we at Super School recognize this and provide the young scholars the best possible learning environment. and we provide kids first-rate facilities as well.</p>
+                <div className="amenities-grid">
+                    {amenities.map((amenity, index) => (
+                        <AmenitiesCard key={index} image={amenity.image} heading={amenity.heading} description={amenity.description} />
+                    ))}
+                </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Amenities
+export default Amenities;

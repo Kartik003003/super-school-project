@@ -11,7 +11,7 @@ const TeamSection = () => {
                 {/* Profile Card for Teacher 1 */}
                 <div className="profile-card">
                     <div className="img">
-                        <img src='https://p.kindpng.com/picc/s/151-1515332_muslim-teacher-drawing-anime-teacher-easy-drawing-hd.png' alt="Teacher 1"></img>
+                        <img src='https://img.freepik.com/free-photo/3d-illustration-senior-man-with-clipboard-backpack_1057-45572.jpg?t=st=1715752654~exp=1715756254~hmac=e382d32c93f372c0b6abd5f320b2a42a97455e95ae402303b72ee09c444d0902&w=740' alt="Teacher 1"></img>
                     </div><br /><br /><br />
                     <div className="caption">
                         <h3>Viraj Shastri</h3>
@@ -29,7 +29,7 @@ const TeamSection = () => {
                 {/* Profile Card for Teacher 2 */}
                 <div className="profile-card">
                     <div className="img">
-                        <img src='https://www.shutterstock.com/image-vector/anime-girl-scientist-reading-book-600nw-2297567861.jpg' alt="Teacher 2"></img>
+                        <img src='https://t4.ftcdn.net/jpg/06/44/10/27/360_F_644102790_xU44JCmu0oJdc1dyUiVBbxEXhOu76XuM.jpg' alt="Teacher 2"></img>
                     </div><br /><br /><br />
                     <div className="caption">
                         <h3>Anjali Singh</h3>
@@ -47,7 +47,7 @@ const TeamSection = () => {
                 {/* Profile Card for Teacher 3 */}
                 <div className="profile-card">
                     <div className="img">
-                        <img src='https://i.pinimg.com/originals/06/8f/5a/068f5ab9ee137e5f4d4629c370c74ce6.jpg' alt="Teacher 3"></img>
+                        <img src='https://img.freepik.com/free-photo/young-business-woman-isolated-white-background-3d-rendering-cartoon-character_1142-32515.jpg?t=st=1715752435~exp=1715756035~hmac=bad5f4e2b79635e27928bf4e8a5a85902599fe601ed9d8c1f97fbd4ce0ae53eb&w=740' alt="Teacher 3"></img>
                     </div><br /><br /><br />
                     <div className="caption">
                         <h3>Poonam Grover</h3>
@@ -65,7 +65,7 @@ const TeamSection = () => {
                 {/* Profile Card for Teacher 4 */}
                 <div className="profile-card">
                     <div className="img">
-                        <img src='https://static.vecteezy.com/system/resources/thumbnails/030/693/568/small/teacher-2d-cartoon-vector-illustration-on-white-background-free-photo.jpg' alt="Teacher 4"></img>
+                        <img src='https://img.freepik.com/free-photo/3d-render-little-boy-with-glasses-tie-white-background_1142-32328.jpg?t=st=1715752209~exp=1715755809~hmac=d195751b6926decfec70b8f6f23271d4a09e72899a1e971b6630f3cad16767e2&w=740' alt="Teacher 4"></img>
                     </div><br /><br /><br />
                     <div className="caption">
                         <h3>Ushvinder Kaur</h3>

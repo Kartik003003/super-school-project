@@ -8,8 +8,8 @@
     position: relative;
     overflow: hidden;
 }
-.home
-{
+
+.home {
     margin: 0;
     padding: 0;
 }
@@ -18,20 +18,20 @@
     transform: scale(2.05);
 }
 
-.cardsection{
+.cardsection {
     display: grid;
     justify-content: center;
     align-items: center;
 }
 
-.student-card{
+.student-card {
     display: grid;
     justify-content: center;
     align-items: center;
     margin-right: 2rem;
 }
 
-.post  {
+.post {
     margin-top: 1;
     /* Remove the top margin for smaller screens */
     margin-left: 1;
@@ -60,6 +60,7 @@
         justify-content: left;
         max-width: 100%;
     }
+
     .hero-section {
         position: inherit;
         /* padding: 50px 20px; */
@@ -225,6 +226,7 @@ para {
     .features {
         grid-template-columns: 1fr 1fr;
     }
+
     .cards-text {
         overflow-y: scroll;
     }
@@ -234,6 +236,7 @@ para {
     .features {
         grid-template-columns: 1fr;
     }
+
     .cards-text {
         overflow-y: scroll;
     }

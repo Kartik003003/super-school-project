@@ -14,7 +14,7 @@
 .blog-image-container .img-fluid{
   position: inherit;
   height: auto;
-  width: 22rem;
+  width: 19rem;
 }
 
 .blog-image-container:hover img {
