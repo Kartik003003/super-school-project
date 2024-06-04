@@ -91,10 +91,10 @@ const menu = [
                 title: "Blogs",
                 path: "/blogs",
             },
-            {
-                title: "Awards",
-                path: "/awards",
-            },
+            // {
+            //     title: "Awards",
+            //     path: "/awards",
+            // },
             {
                 title: "In the News",
                 path: "/News",
